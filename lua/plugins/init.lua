@@ -57,16 +57,14 @@ return require('packer').startup(function()
   -- Code
   ---- Autocomplete
   use 'neovim/nvim-lspconfig'
-  use 'kabouzeid/nvim-lspinstall'
-  use 'hrsh7th/cmp-nvim-lsp'
-  use 'hrsh7th/cmp-buffer'
   use 'hrsh7th/nvim-cmp'
+  use 'hrsh7th/cmp-nvim-lsp'
   use 'saadparwaiz1/cmp_luasnip'
-
-  ---- Snippets
-  use 'hrsh7th/cmp-vsnip'
-  use 'hrsh7th/vim-vsnip'
   use 'L3MON4D3/LuaSnip'
+  use 'kabouzeid/nvim-lspinstall'
+
+  use 'glepnir/lspsaga.nvim'
+  use 'hrsh7th/cmp-buffer'
 
   ---- Comment
   use 'preservim/nerdcommenter'
