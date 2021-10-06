@@ -68,5 +68,11 @@ return require('packer').startup(function()
 
   ---- Comment
   use 'preservim/nerdcommenter'
+
+  ---- Check
+  use 'dense-analysis/ale'
+
+  ---- Format
+  use 'sbdchd/neoformat'
 end)
 
