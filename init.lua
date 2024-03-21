@@ -49,3 +49,6 @@ require("noice").setup({
   },
 })
 
+-- LSP manager
+require("mason").setup()
+
