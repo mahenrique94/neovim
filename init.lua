@@ -17,3 +17,6 @@ require("lazy").setup("plugins", opts)
 
 require("config")
 require("config/keymaps")
+
+require('lualine').setup()
+
